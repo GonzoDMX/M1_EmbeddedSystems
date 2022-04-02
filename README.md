@@ -11,20 +11,20 @@ Ce projet démontre une solution de contrôle pour un Robot Rover. Cela inclut d
 5. **SchemaSignaux_OSHEI_andrew.pdf** - Un schéma des connexions entre chacun des composants utilisés dans le projet.
 6. **CProgram_OSHEI_andrew.c** - Le programme C montrant comment le microcontrôleur lit et écrit sur les composants à l'aide du décodeur FPGA pour l'adressage des composants.
 
+<p align="center">Schéma du flux de signaux</p>
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/SchemaSignaux_OSHEI_andrew.png">
 </p>
-<p align="center" style="margin-top: 3px; margin-bottom: 15px;">Schéma du flux de signaux</p>
-
+</br>
+<p align="center">Table d'adressage</p>
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/TableAdressage_OSHEI_andrew.png">
 </p>
-<p align="center">Table d'adressage</p>
-
+</br>
+<p align="center">Simulation ModelSim</p>
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/Simulation_OSHEI_andrew.png">
 </p>
-<p align="center">Simulation ModelSim</p>
 
 
 
