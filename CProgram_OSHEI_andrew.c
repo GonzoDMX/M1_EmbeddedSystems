@@ -93,7 +93,6 @@ void main() {
 		
 		// Tester si l'appareil cible est un moteur ou un bras robotise
 		if ( device > ram && device < mast_cam ) {
-			TRISB = ;
 			write_to_component(register_A, register_B, device, data);
 		} else {
 			if (strcmp( command, "read" )) {
