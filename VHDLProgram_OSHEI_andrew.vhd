@@ -1,11 +1,16 @@
+-- M1 Systemes Embarques - Robot Rover - Andrew O'SHEI
 library ieee;
 use ieee.std_logic_1164.all;
 
+-- Créer le décodeur et ses entrées et sorties
 ENTITY decoder IS
 
 PORT(
+-- Horloge de synchronisation des changements d'état
 clk : IN bit;
+-- Configurer un tableau de 5 bits correspondant à A13 - A17 sur le bus d'adresse
 A : IN std_logic_vector(4 DOWNTO 0);
+-- Créer une sortie pour chaque composant
 eeprom : OUT bit;
 ram : OUT bit;
 motor1 : OUT bit;
@@ -29,8 +34,9 @@ remrem : OUT bit
 END decoder;
 
 ARCHITECTURE chipselect OF decoder IS
-
+-- Le programme commence ici
 BEGIN
+-- Lorsque le signal d'adresse correspond à un composant, réglez-le sur '1', sinon '0'
 eeprom <= '1' WHEN A = "00000" ELSE '0';
 ram <= '1' WHEN A = "00001" ELSE '0';
 motor1 <= '1' WHEN A = "00010" ELSE '0';
