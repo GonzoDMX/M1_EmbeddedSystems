@@ -1,5 +1,7 @@
 # M1 Systèmes Embarqués - Projet Robot Rover - OSHEI Andrew
 
+Ce projet démontre une solution de contrôle pour un Robot Rover. Cela inclut des sélections de composants ainsi qu'une implémentation hypothétique d'un décodeur FPGA qui permettrait à un microcontrôleur limité d'effectuer des opérations sur de nombreux composants. Pour tester notre implémentation de code VHDL, des simulations ont été exécutées à l'aide de ModelSim.
+
 ## Fichiers inclus :
 
 1. **CompSelect_OSHEI_andrew.pdf** - Comprend une description des composantes choisies pour ce projet et pourquoi elles ont été choisies (Microcontrôleur, EEPROM et RAM).
@@ -12,3 +14,10 @@
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/SchemaSignaux_OSHEI_andrew.png">
 </p>
+
+<p align="center">
+  <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/Simulation_OSHEI_andrew.png">
+</p>
+
+
+
