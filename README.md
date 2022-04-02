@@ -14,7 +14,7 @@ Ce projet démontre une solution de contrôle pour un Robot Rover. Cela inclut d
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/SchemaSignaux_OSHEI_andrew.png">
 </p>
-<p align="center">Schéma du flux de signaux</p>
+<p align="center" style="margin-top: 3px; margin-bottom: 15px;">Schéma du flux de signaux</p>
 
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/TableAdressage_OSHEI_andrew.png">
