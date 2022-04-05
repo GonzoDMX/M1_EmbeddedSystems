@@ -9,7 +9,7 @@ PORT(
 -- Horloge de synchronisation des changements d'état
 clk : IN bit;
 -- Configurer un tableau de 5 bits correspondant à A13 - A17 sur le bus d'adresse
-A : IN std_logic_vector(4 DOWNTO 0);
+A : IN std_logic_vector(4 DOWNTO 0) := "00000";
 -- Créer une sortie pour chaque composant
 eeprom : OUT bit;
 ram : OUT bit;
