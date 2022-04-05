@@ -22,12 +22,12 @@ Ce projet démontre une solution de contrôle pour un Robot Rover. Cela inclut d
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/assets/TableAdressage_OSHEI_andrew.png">
 </p>
 </br>
-<p align="center">Simulation ModelSim</p>
+<p align="center">Simulation ModelSim - Wave</p>
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/Simulation_OSHEI_andrew.png">
 </p>
 </br>
-<p align="center">Simulation ModelSim</p>
+<p align="center">Simulation ModelSim - Dataflow</p>
 <p align="center">
   <img style="width: 80%; height: 80%;" src="https://github.com/GonzoDMX/M1_EmbeddedSystems/blob/main/DataflowSim_OSHEI_andrew.png">
 </p>
